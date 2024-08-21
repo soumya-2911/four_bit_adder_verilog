@@ -1,0 +1,56 @@
+$date
+	Sun Aug 18 03:41:15 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module test_bench $end
+$scope module f $end
+$var wire 4 ! a [3:0] $end
+$var wire 4 " b [3:0] $end
+$var wire 1 # c0 $end
+$var wire 4 $ car [3:0] $end
+$var wire 1 % carry $end
+$var wire 4 & sum [3:0] $end
+$scope module s $end
+$var wire 4 ' a [3:0] $end
+$var wire 4 ( b [3:0] $end
+$var wire 1 # c0 $end
+$var wire 4 ) carry [3:0] $end
+$var wire 1 % last_carry $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx0 )
+bx (
+bx '
+bx &
+x%
+bx0 $
+0#
+bx "
+bx !
+$end
+#5
+b100 $
+b100 )
+1%
+b100 &
+b1010 "
+b1010 (
+b1010 !
+b1010 '
+#10
+0%
+b1101 &
+b10 "
+b10 (
+b1011 !
+b1011 '
+#15
